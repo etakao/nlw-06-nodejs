@@ -28,7 +28,7 @@ export class CreateTags1648838569244 implements MigrationInterface {
                     }
                 ]
             })
-        )
+        );
     }
 
     public async down(queryRunner: QueryRunner): Promise<void> {
